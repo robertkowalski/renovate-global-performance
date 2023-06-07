@@ -1,0 +1,20 @@
+{
+  "name": "renovate-global-performance",
+  "version": "1.0.0",
+  "description": "$ node --test test.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "test.js",
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "author": "Robert Kowalski <rok@kowalski.gd>",
+  "license": "MIT",
+  "volta": {
+    "node": "20.2.0"
+  },
+  "dependencies": {
+    "renovate": "35.72.0"
+  }
+}
